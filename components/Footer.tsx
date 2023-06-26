@@ -25,11 +25,11 @@ const Footer = () => (
   <section className="flexStart footer">
     <div className="flex flex-col gap-12 w-full">
       <div className="flex items-start flex-col">
-        <Image src="/logo-purple.svg" width={116} height={38} alt="logo" />
+        <Image src="/KabirShuvo.ico" width={116} height={38} alt="logo" />
 
         <p className="text-start text-sm font-normal mt-5 max-w-xs">
           This is Kabir Shuvo from Bangladesh. Experienced React Developer.
-          Investing Time to Learn Nextjs, typescript, Graphql tech path.
+          Investing Time into Learn Nextjs, typescript, Graphql tech path.
         </p>
       </div>
       <div className="flex flex-wrap gap-12">

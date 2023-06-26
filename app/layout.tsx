@@ -3,8 +3,8 @@ import Navbar from "@/components/Navbar";
 import "./globals.css";
 
 export const metadata = {
-  title: "Flexibble",
-  description: "Showcase and discover remarkable developer projects",
+  title: "kabirShuvo",
+  description: "Showcasing Remarkable Projects",
 };
 
 export default function RootLayout({
