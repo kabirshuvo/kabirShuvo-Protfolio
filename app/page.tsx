@@ -1,7 +1,9 @@
+import { Hero } from "@/components";
+
 function Home() {
   return (
     <div>
-      <h1>Home This is Home</h1>
+      <Hero />
     </div>
   );
 }
