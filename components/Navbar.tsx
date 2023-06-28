@@ -25,8 +25,8 @@ const Navbar = async () => {
           ))}
         </ul>
       </div>
-
-      <div className="flexCenter gap-4">
+      
+      <div className="flexCenter gap-4 z-50">
         {session?.user ? (
           <>
             <ProfileMenu session={session} />
