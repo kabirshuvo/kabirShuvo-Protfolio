@@ -12,12 +12,12 @@ const Navbar = async () => {
   const session = await getCurrentUser();
 
   return (
-    <nav className="flexBetween navbar">
+    <nav className="flexBetween navbar md:-mt-10">
       <div className="flex-1 flexStart gap-10">
         <Link href="/">
-          <Image src="/KabirShuvo.ico" width={116} height={43} alt="logo" />
+          <Image src="/KabirShuvo.ico" width={116} height={23} alt="logo" />
         </Link>
-        <ul className="xl:flex hidden text-small gap-7">
+        <ul className="xl:flex  text-small gap-7">
           {NavLinks.map((link) => (
             <Link href={link.href} key={link.text}>
               {link.text}

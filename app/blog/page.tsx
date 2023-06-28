@@ -1,9 +1,9 @@
-function Hi() {
+function Blog() {
   return (
     <div className="flex justify-center items-center">
-      <h1>Hi</h1>
+      <h1>Blog</h1>
     </div>
-  );
+
 }
 
-export default Hi;
+export default Blog;
