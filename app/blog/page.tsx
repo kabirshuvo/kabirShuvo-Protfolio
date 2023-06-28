@@ -1,7 +1,7 @@
 function Blog() {
   return (
-    <div className="flex justify-center items-center">
-      <h1>Blog</h1>
+    <div>
+      <h3>blog</h3>
     </div>
   );
 }
