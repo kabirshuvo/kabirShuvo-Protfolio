@@ -4,6 +4,11 @@ export const NavLinks = [
   { href: "/projects", key: "Projects", text: "Projects" },
   { href: "/testimonials", key: "Testimonials", text: "Testimonials" },
   { href: "/resume", key: "Resume", text: "Resume" },
+  {
+    href: "/leaveacomment",
+    key: "Comment",
+    text: "Leave Me A note or Comment",
+  },
 ];
 
 export const categoryFilters = [

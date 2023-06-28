@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import CustomButton from "./CustomButton";
 
 function Hero() {
@@ -25,16 +26,20 @@ function Hero() {
         </p>
 
         <div className="flex gap-7">
-          <CustomButton
-            title="Interview Me"
-            containerStyles="bg-primary-blue text-white rounded-full mt-10"
-            handleClick={handleScroll}
-          />
-          <CustomButton
-            title="My Resume"
-            containerStyles="bg-primary-blue text-white rounded-full mt-10"
-            handleClick={handleScroll}
-          />
+          <Link href="/resume">
+            <CustomButton
+              title="Interview Me"
+              containerStyles="bg-primary-blue text-white rounded-full mt-10"
+              handleClick={handleScroll}
+            />
+          </Link>
+          <Link href="/resume">
+            <CustomButton
+              title="My Resume"
+              containerStyles="bg-primary-blue text-white rounded-full mt-10"
+              handleClick={handleScroll}
+            />
+          </Link>
           <div className="hero__image-overlay"></div>
         </div>
         <div className="hero__image-container">
